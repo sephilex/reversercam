@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ax-54-1qj">
+                                <rect key="frame" x="20" y="40" width="100" height="30"/>
+                                <state key="normal" title="Share/Contact">
+                                    <color key="titleColor" red="0.86274509803921573" green="0.039215686274509803" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdU-6h-KdV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb3-qj-ERh">
+                                <rect key="frame" x="255" y="40" width="100" height="30"/>
+                                <state key="normal" title="Share/Contact">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="160_160x160_" translatesAutoresizingMaskIntoConstraints="NO" id="daV-tc-8uN">
+                                <rect key="frame" x="107.5" y="203.5" width="160" height="160"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reverser Cam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qok-lj-NqG">
+                                <rect key="frame" x="124" y="368.5" width="127" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7a-aM-4dT">
+                                <rect key="frame" x="57.5" y="464" width="260" height="64"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="qk3-HH-X8w"/>
+                                    <constraint firstAttribute="width" constant="260" id="tpO-wz-Mm4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Start Recording">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="usa-Ak-4ef"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4t9-5c-1SE">
+                                <rect key="frame" x="57" y="543" width="260" height="64"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="8Xr-fx-nV7"/>
+                                    <constraint firstAttribute="height" constant="64" id="bGj-OS-9Qi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Reverse From Library">
+                                    <color key="titleColor" red="0.86274509799999999" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectFromAlbum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3iN-a3-JUo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Ax-54-1qj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2oh-MH-vQb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4t9-5c-1SE" secondAttribute="bottom" constant="60" id="2vY-en-qUs"/>
+                            <constraint firstItem="4t9-5c-1SE" firstAttribute="width" secondItem="C7a-aM-4dT" secondAttribute="width" id="6R3-7U-Qr5"/>
+                            <constraint firstItem="4t9-5c-1SE" firstAttribute="top" secondItem="C7a-aM-4dT" secondAttribute="bottom" constant="15" id="K5J-h7-K6f"/>
+                            <constraint firstItem="Qok-lj-NqG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vcl-aV-TN8"/>
+                            <constraint firstItem="C7a-aM-4dT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WLk-zS-uQd"/>
+                            <constraint firstItem="bb3-qj-ERh" firstAttribute="centerY" secondItem="6Ax-54-1qj" secondAttribute="centerY" id="Y5r-jD-U6s"/>
+                            <constraint firstItem="4t9-5c-1SE" firstAttribute="centerX" secondItem="C7a-aM-4dT" secondAttribute="centerX" id="boP-5q-OJQ"/>
+                            <constraint firstItem="daV-tc-8uN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="fjy-4u-jCH"/>
+                            <constraint firstItem="Qok-lj-NqG" firstAttribute="top" secondItem="daV-tc-8uN" secondAttribute="bottom" constant="5" id="h0S-Ba-9G1"/>
+                            <constraint firstItem="4t9-5c-1SE" firstAttribute="height" secondItem="C7a-aM-4dT" secondAttribute="height" id="rwm-6g-Ubh"/>
+                            <constraint firstItem="daV-tc-8uN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tiB-wn-lJB"/>
+                            <constraint firstAttribute="trailing" secondItem="bb3-qj-ERh" secondAttribute="trailing" constant="20" id="ux4-Dw-HyA"/>
+                            <constraint firstItem="6Ax-54-1qj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="xVT-bo-OK1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="daV-tc-8uN" id="yg3-2S-DhL"/>
+                        <outlet property="moreAppBtn" destination="bb3-qj-ERh" id="Ku1-m2-cvo"/>
+                        <outlet property="shareBtn" destination="6Ax-54-1qj" id="Jbg-Vc-36k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="160_160x160_" width="160" height="160"/>
+    </resources>
+</document>

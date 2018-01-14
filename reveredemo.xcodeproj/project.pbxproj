@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020158EF1F73E1920002A3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 020158EE1F73E1920002A3AB /* main.m */; };
+		020158F21F73E1920002A3AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 020158F11F73E1920002A3AB /* AppDelegate.m */; };
+		020158F51F73E1920002A3AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020158F41F73E1920002A3AB /* ViewController.m */; };
+		020158F81F73E1920002A3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020158F61F73E1920002A3AB /* Main.storyboard */; };
+		020158FA1F73E1920002A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020158F91F73E1920002A3AB /* Assets.xcassets */; };
+		020158FD1F73E1920002A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020158FB1F73E1920002A3AB /* LaunchScreen.storyboard */; };
+		020159081F73E1920002A3AB /* reveredemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020159071F73E1920002A3AB /* reveredemoTests.m */; };
+		020159131F73E1920002A3AB /* reveredemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020159121F73E1920002A3AB /* reveredemoUITests.m */; };
+		020159231F73F2750002A3AB /* FMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 020159221F73F2750002A3AB /* FMImagePicker.m */; };
+		02B2077B1F74E1060067927D /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B207791F74E1060067927D /* PlayController.m */; };
+		02B2077C1F74E1060067927D /* PlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B2077A1F74E1060067927D /* PlayController.xib */; };
+		02B2077F1F74E3160067927D /* AVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B2077E1F74E3160067927D /* AVUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020159041F73E1920002A3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020158E21F73E1920002A3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020158E91F73E1920002A3AB;
+			remoteInfo = reveredemo;
+		};
+		0201590F1F73E1920002A3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020158E21F73E1920002A3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020158E91F73E1920002A3AB;
+			remoteInfo = reveredemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020158EA1F73E1920002A3AB /* reveredemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reveredemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020158EE1F73E1920002A3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		020158F01F73E1920002A3AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		020158F11F73E1920002A3AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		020158F31F73E1920002A3AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		020158F41F73E1920002A3AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		020158F71F73E1920002A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		020158F91F73E1920002A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020158FC1F73E1920002A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		020158FE1F73E1920002A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020159031F73E1920002A3AB /* reveredemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reveredemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020159071F73E1920002A3AB /* reveredemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reveredemoTests.m; sourceTree = "<group>"; };
+		020159091F73E1920002A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201590E1F73E1920002A3AB /* reveredemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reveredemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020159121F73E1920002A3AB /* reveredemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reveredemoUITests.m; sourceTree = "<group>"; };
+		020159141F73E1920002A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020159211F73F2750002A3AB /* FMImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImagePicker.h; sourceTree = "<group>"; };
+		020159221F73F2750002A3AB /* FMImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImagePicker.m; sourceTree = "<group>"; };
+		02B207781F74E1060067927D /* PlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayController.h; sourceTree = "<group>"; };
+		02B207791F74E1060067927D /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
+		02B2077A1F74E1060067927D /* PlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayController.xib; sourceTree = "<group>"; };
+		02B2077D1F74E3160067927D /* AVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVUtilities.h; sourceTree = "<group>"; };
+		02B2077E1F74E3160067927D /* AVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020158E71F73E1920002A3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020159001F73E1920002A3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201590B1F73E1920002A3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020158E11F73E1920002A3AB = {
+			isa = PBXGroup;
+			children = (
+				020158EC1F73E1920002A3AB /* reveredemo */,
+				020159061F73E1920002A3AB /* reveredemoTests */,
+				020159111F73E1920002A3AB /* reveredemoUITests */,
+				020158EB1F73E1920002A3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020158EB1F73E1920002A3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020158EA1F73E1920002A3AB /* reveredemo.app */,
+				020159031F73E1920002A3AB /* reveredemoTests.xctest */,
+				0201590E1F73E1920002A3AB /* reveredemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020158EC1F73E1920002A3AB /* reveredemo */ = {
+			isa = PBXGroup;
+			children = (
+				020159201F73F2750002A3AB /* UIImagePicker */,
+				020158F01F73E1920002A3AB /* AppDelegate.h */,
+				020158F11F73E1920002A3AB /* AppDelegate.m */,
+				020158F31F73E1920002A3AB /* ViewController.h */,
+				020158F41F73E1920002A3AB /* ViewController.m */,
+				02B207781F74E1060067927D /* PlayController.h */,
+				02B207791F74E1060067927D /* PlayController.m */,
+				02B2077A1F74E1060067927D /* PlayController.xib */,
+				020158F61F73E1920002A3AB /* Main.storyboard */,
+				020158F91F73E1920002A3AB /* Assets.xcassets */,
+				02B2077D1F74E3160067927D /* AVUtilities.h */,
+				02B2077E1F74E3160067927D /* AVUtilities.m */,
+				020158FB1F73E1920002A3AB /* LaunchScreen.storyboard */,
+				020158FE1F73E1920002A3AB /* Info.plist */,
+				020158ED1F73E1920002A3AB /* Supporting Files */,
+			);
+			path = reveredemo;
+			sourceTree = "<group>";
+		};
+		020158ED1F73E1920002A3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020158EE1F73E1920002A3AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		020159061F73E1920002A3AB /* reveredemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				020159071F73E1920002A3AB /* reveredemoTests.m */,
+				020159091F73E1920002A3AB /* Info.plist */,
+			);
+			path = reveredemoTests;
+			sourceTree = "<group>";
+		};
+		020159111F73E1920002A3AB /* reveredemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				020159121F73E1920002A3AB /* reveredemoUITests.m */,
+				020159141F73E1920002A3AB /* Info.plist */,
+			);
+			path = reveredemoUITests;
+			sourceTree = "<group>";
+		};
+		020159201F73F2750002A3AB /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				020159211F73F2750002A3AB /* FMImagePicker.h */,
+				020159221F73F2750002A3AB /* FMImagePicker.m */,
+			);
+			path = UIImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020158E91F73E1920002A3AB /* reveredemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020159171F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemo" */;
+			buildPhases = (
+				020158E61F73E1920002A3AB /* Sources */,
+				020158E71F73E1920002A3AB /* Frameworks */,
+				020158E81F73E1920002A3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reveredemo;
+			productName = reveredemo;
+			productReference = 020158EA1F73E1920002A3AB /* reveredemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020159021F73E1920002A3AB /* reveredemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201591A1F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemoTests" */;
+			buildPhases = (
+				020158FF1F73E1920002A3AB /* Sources */,
+				020159001F73E1920002A3AB /* Frameworks */,
+				020159011F73E1920002A3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020159051F73E1920002A3AB /* PBXTargetDependency */,
+			);
+			name = reveredemoTests;
+			productName = reveredemoTests;
+			productReference = 020159031F73E1920002A3AB /* reveredemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0201590D1F73E1920002A3AB /* reveredemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201591D1F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemoUITests" */;
+			buildPhases = (
+				0201590A1F73E1920002A3AB /* Sources */,
+				0201590B1F73E1920002A3AB /* Frameworks */,
+				0201590C1F73E1920002A3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020159101F73E1920002A3AB /* PBXTargetDependency */,
+			);
+			name = reveredemoUITests;
+			productName = reveredemoUITests;
+			productReference = 0201590E1F73E1920002A3AB /* reveredemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020158E21F73E1920002A3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sephilex;
+				TargetAttributes = {
+					020158E91F73E1920002A3AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BH3VZAU2B2;
+						ProvisioningStyle = Automatic;
+					};
+					020159021F73E1920002A3AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BH3VZAU2B2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 020158E91F73E1920002A3AB;
+					};
+					0201590D1F73E1920002A3AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BH3VZAU2B2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 020158E91F73E1920002A3AB;
+					};
+				};
+			};
+			buildConfigurationList = 020158E51F73E1920002A3AB /* Build configuration list for PBXProject "reveredemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020158E11F73E1920002A3AB;
+			productRefGroup = 020158EB1F73E1920002A3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020158E91F73E1920002A3AB /* reveredemo */,
+				020159021F73E1920002A3AB /* reveredemoTests */,
+				0201590D1F73E1920002A3AB /* reveredemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020158E81F73E1920002A3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020158FD1F73E1920002A3AB /* LaunchScreen.storyboard in Resources */,
+				02B2077C1F74E1060067927D /* PlayController.xib in Resources */,
+				020158FA1F73E1920002A3AB /* Assets.xcassets in Resources */,
+				020158F81F73E1920002A3AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020159011F73E1920002A3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201590C1F73E1920002A3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020158E61F73E1920002A3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020158F51F73E1920002A3AB /* ViewController.m in Sources */,
+				02B2077F1F74E3160067927D /* AVUtilities.m in Sources */,
+				02B2077B1F74E1060067927D /* PlayController.m in Sources */,
+				020158F21F73E1920002A3AB /* AppDelegate.m in Sources */,
+				020159231F73F2750002A3AB /* FMImagePicker.m in Sources */,
+				020158EF1F73E1920002A3AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020158FF1F73E1920002A3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020159081F73E1920002A3AB /* reveredemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201590A1F73E1920002A3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020159131F73E1920002A3AB /* reveredemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020159051F73E1920002A3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020158E91F73E1920002A3AB /* reveredemo */;
+			targetProxy = 020159041F73E1920002A3AB /* PBXContainerItemProxy */;
+		};
+		020159101F73E1920002A3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020158E91F73E1920002A3AB /* reveredemo */;
+			targetProxy = 0201590F1F73E1920002A3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		020158F61F73E1920002A3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020158F71F73E1920002A3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		020158FB1F73E1920002A3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020158FC1F73E1920002A3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020159151F73E1920002A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		020159161F73E1920002A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020159181F73E1920002A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		020159191F73E1920002A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0201591B1F73E1920002A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reveredemo.app/reveredemo";
+			};
+			name = Debug;
+		};
+		0201591C1F73E1920002A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reveredemo.app/reveredemo";
+			};
+			name = Release;
+		};
+		0201591E1F73E1920002A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reveredemo;
+			};
+			name = Debug;
+		};
+		0201591F1F73E1920002A3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = reveredemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.reveredemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reveredemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020158E51F73E1920002A3AB /* Build configuration list for PBXProject "reveredemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020159151F73E1920002A3AB /* Debug */,
+				020159161F73E1920002A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020159171F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020159181F73E1920002A3AB /* Debug */,
+				020159191F73E1920002A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201591A1F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201591B1F73E1920002A3AB /* Debug */,
+				0201591C1F73E1920002A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201591D1F73E1920002A3AB /* Build configuration list for PBXNativeTarget "reveredemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201591E1F73E1920002A3AB /* Debug */,
+				0201591F1F73E1920002A3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020158E21F73E1920002A3AB /* Project object */;
+}
